@@ -63,4 +63,3 @@ def render_products_screen():
 
             tk.Label(app, text=product["count"]).grid(row=row+2, column=column)
             tk.Button(app,text=f"Buy {product['id']}", command=lambda p= product["id"]: buy_product(p)).grid(row=row+3, column=column)
-

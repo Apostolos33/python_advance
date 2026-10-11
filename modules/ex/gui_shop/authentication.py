@@ -55,7 +55,6 @@ def renter_login_screen(error=None):
     if error:
         tk.Label(app, text=error).grid(row=3, column=0)
 
-
 def renter_register_screen(error=None):
      clean_screen()
      username = tk.Entry(app)

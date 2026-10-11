@@ -4,7 +4,6 @@ def is_not_valid_user_data(**user):
     if user["username"] == "" or user["password"] == "" or user["first_name"] == "" or user["last_name"] == "":
         return "All fields are required!"
 
-
     if len(user["username"]) < 4:
         return "Username must be at least 4 characters long"
 
